@@ -16,7 +16,7 @@ void print_array(int *array, size_t i, size_t size)
 		if (i + 1 == size)
 			printf("%d ", array[i]);
 		else
-			printf("%d ", array[i]);
+			printf("%d, ", array[i]);
 		i++;
 	} printf("\n");
 }
@@ -28,7 +28,7 @@ void print_array(int *array, size_t i, size_t size)
  *
  * @size: size of list
  *
- * @value:target to search
+ * @value:target to searchii
  *
  *Return: element index on success
  */
