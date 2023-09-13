@@ -50,7 +50,7 @@ int binary_search(int *array, size_t size, int value)
 		}
 		else if (array[half] > value)
 		{
-			high = half -1;
+			high = half - 1;
 			print_array(array, low, high + 1);
 		}
 		else
